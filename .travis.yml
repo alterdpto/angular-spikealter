@@ -11,6 +11,7 @@ addons:
       - google-chrome
     packages:
       - google-chrome-stable
+     --allow-unauthenticated
 
 cache:
   directories:
