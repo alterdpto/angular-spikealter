@@ -12,7 +12,6 @@ cache:
      - ./node_modules
 
 before_install:
-  -apt-key update && sudo apt-get
   -sudo -E apt-get -yq --no-install-suggests --no-install-recommends $(travis_apt_get_options) install google-chrome-stable
   
 install:
